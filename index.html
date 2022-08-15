@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
 </head>
+ <style>
+    h2,h1{
+        color:firebrick;
+    }
+    body{
+        background-color: #ccc;
+    }
+ </style>
 <body>
     <h1>Calculator</h1>
     <form onsubmit="dosum(); return false">
@@ -15,10 +23,13 @@
         <br>
         <button type="submit">sum</button>
         </form>
-    
+        <h2>Addition</h2>
         <h3 id="result">  </h3>
+        <h2>Subtraction</h2>
         <h3 id="result1">  </h3>
+        <h2>Multiplication</h2>
         <h3 id="result2">  </h3>
+        <h2>Division</h2>
         <h3 id="result3">  </h3>
     <script>
         function dosum(){
